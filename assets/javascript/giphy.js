@@ -42,7 +42,7 @@ $(function() {
 		$("#gifs").empty();
 
 		$.ajax({
-            url: "http://api.giphy.com/v1/gifs/search",
+            url: "https://api.giphy.com/v1/gifs/search",
             method: 'GET',
             data: {
             	q: $(this).data("item"),
