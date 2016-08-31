@@ -11,16 +11,15 @@ body {
    outline: none !important;
 }
 
-.top-margin {
-	margin-top: 30px;
+.small_margin {
+	margin: 0px 5px 5px 0px;
 }
 
-.bottom-margin {
-	margin-bottom: 8px;
+.large_margin {
+	margin: 0px 20px 20px 0px;
 }
 
-.flex-center {
+.flex {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	flex-wrap: wrap;
 }
